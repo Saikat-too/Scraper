@@ -42,7 +42,7 @@ class X_Picture:
         driver.get(self.pic_link)
 
         # wati enough time 
-        time.sleep(20)
+        time.sleep(10)
 
         # Using beautifulsoup to find the image 
 

@@ -164,5 +164,5 @@ cython_debug/
 # ignore all jpg files
 .jpg
 
-# ignore the test folder
+# ignore the test folder and files
 test/
