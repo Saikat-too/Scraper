@@ -18,7 +18,7 @@ class X_Picture:
         # Boolean to check the link is valid or not 
         bool = True
         try : 
-            r = requests.get(pic_link , timeout=1)
+            r = requests.get(self.pic_link , timeout=1)
             if r.status_code < 400 : 
                 bool = True
             else : 
