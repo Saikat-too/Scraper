@@ -162,7 +162,8 @@ cython_debug/
 #.idea/
 
 # ignore all jpg files
-.jpg
+/X_scraper/.jpg
 
 # ignore the test folder and files
 test/
+/X_scraper/test.py
