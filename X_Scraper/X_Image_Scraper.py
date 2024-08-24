@@ -54,4 +54,9 @@ class X_Picture:
         for image in images : 
             urllib.request.urlretrieve(image , picture_filename)
         
+        # Closing the browser
+        driver.quit()
+
+
+
 
