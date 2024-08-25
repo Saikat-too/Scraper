@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By 
 class X_Post:
     # Initializing the post_link 
-    def __init__(self ):
-        self.post_link = "https://x.com/ABrownBeing/status/1827381444894949685"
+    def __init__(self , post_link):
+        self.post_link = post_link
         
     def get_X_Post(self):
         
