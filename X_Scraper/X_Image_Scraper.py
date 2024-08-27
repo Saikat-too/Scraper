@@ -4,17 +4,18 @@ from bs4 import BeautifulSoup
 import urllib.request
 from requests.exceptions import ConnectionError
 import requests
+from tqdm import tqdm
 
 
 
-class X_Picture:
+class X_Image:
     
     # init 
     
     def __init__(self , pic_link):
         self.pic_link = pic_link
     
-    def get_X_picture(self):
+    def get_X_Image(self):
         # Boolean to check the link is valid or not 
         bool = True
         try : 
@@ -51,12 +52,12 @@ class X_Picture:
 
         images = [img['src'] for img in images if '/media/' in img['src']]
 
-        for image in images : 
-            urllib.request.urlretrieve(image , picture_filename)
+        for image in tqdm(images, desc="Downloading images"):
+             urllib.request.urlretrieve(image, picture_filename)
         
         # Closing the browser
         driver.quit()
 
-
+    
 
 
