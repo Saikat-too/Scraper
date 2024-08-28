@@ -22,10 +22,7 @@ setup(
         'requests',  
         'beautifulsoup4',
         'selenium',
-        'time ',
-        'tqdm',
-        're',
-        'urllib.request',
+        
         
     ],
 )
