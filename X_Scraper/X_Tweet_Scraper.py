@@ -2,12 +2,12 @@ import requests
 import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By 
-class X_Post:
+class X_Tweet:
     # Initializing the post_link 
     def __init__(self , post_link):
         self.post_link = post_link
         
-    def get_X_Post(self):
+    def get_X_Tweet(self):
         
          # Boolean to check the link is valid or not 
         bool = True
