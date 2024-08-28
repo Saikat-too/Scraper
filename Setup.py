@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='X_Scraper', 
-    version='0.1.0',  
+    version='0.1.1',  
     author='Saikat Singha',
     author_email='saikatsingha00q@gmail.com',
     description='A Python module to scrape Twitter posts and images',
